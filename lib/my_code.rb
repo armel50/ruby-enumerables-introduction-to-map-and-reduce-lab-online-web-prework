@@ -52,23 +52,7 @@ def reduce_to_total(source_array, starting_point=0)
 end
 
 def reduce_to_all_true(source_array) 
-  counter = 0 
-  checker1 = []
-  while source_array[counter] do
-    if source_array[counter] == false || source_array[counter] == nil
-      checker1.push("false")
-    else
-      checker1.push("true")
-    end
-   
-     
-    counter += 1
-  end
-  if checker1.length == 0 
-    return true
-  else 
-    return false
-  end
+  
 end
 
 def reduce_to_any_true(source_array)
