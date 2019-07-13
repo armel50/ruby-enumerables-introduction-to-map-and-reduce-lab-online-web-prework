@@ -40,7 +40,7 @@ end
 
 def reduce_to_total(source_array, starting_point)
    counter = 0
-   if starting_point + 1 != nil 
+   if starting_point.length != 0 
    
    sum = starting_point
  else
