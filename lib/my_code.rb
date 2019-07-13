@@ -78,7 +78,9 @@ def reduce_to_any_true(source_array)
 if checker.include?("true")
   return true
 else
+  return checker
   return false
+  
 end
   
 end
