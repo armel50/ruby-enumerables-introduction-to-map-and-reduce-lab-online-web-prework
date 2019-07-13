@@ -55,7 +55,7 @@ def reduce_to_all_true(source_array)
   counter = 0 
   checker1 = []
   while source_array[counter] do
-    if source_array[counter] == false
+    if source_array[counter] == false || source_array[counter] == nil
       checker1.push("false")
       
     end
