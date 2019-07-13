@@ -66,12 +66,12 @@ end
 
 def reduce_to_any_true(source_array)
   counter = 0 
-  checker = []
+  
   while source_array[counter] do
     if source_array[counter] == true
       return true
-    else
-      checker.push("false")
+    
+     
     end
   end
 return false
