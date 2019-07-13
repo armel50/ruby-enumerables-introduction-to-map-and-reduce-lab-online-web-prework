@@ -64,6 +64,8 @@ def reduce_to_all_true(source_array)
   end
   if checker1.include?("true")
     return true
+    elsif checker1.include?("false")
+    return false
   end
 end
 
