@@ -63,8 +63,6 @@ def reduce_to_all_true(source_array)
   
   if checker.length == 0
     return true
-  else
-    return false
   end
 end
 
