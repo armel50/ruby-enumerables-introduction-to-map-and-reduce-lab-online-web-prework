@@ -77,7 +77,10 @@ def reduce_to_any_true(source_array)
 
 if checker.length == 0
   return true
-else
+end
+checker = "lol"
+if checker.length != 0
+
   
   return false
   
