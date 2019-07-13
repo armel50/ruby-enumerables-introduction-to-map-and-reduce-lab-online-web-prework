@@ -58,8 +58,15 @@ def reduce_to_all_true(source_array)
     if source_array[counter]
       checker.push("true")
     else 
+      checker.push("false")
     end
     counter += 1
+  end
+  
+  if checker.include?("false")
+    return false
+  else
+    return true
   end
 end
 
