@@ -53,13 +53,18 @@ end
 
 def reduce_to_all_true(source_array) 
   counter = 0 
+  checker1 = []
   while source_array[counter] do
     if source_array[counter] == true
-      return true
+      checker1.push("true")
+    else
+      checker1.push("false")
     end
     counter += 1
   end
-  return false
+  if checker1.include?("true")
+    return true
+  end
 end
 
 def reduce_to_any_true(source_array)
